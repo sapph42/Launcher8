@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Launcher8", "SOURCE\Launcher8.csproj", "{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BINARY", "BINARY", "{E9FF3566-7E4A-42DD-B7D2-D4806A7AB859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXTERNAL BINARY", "EXTERNAL BINARY", "{5FC2628B-3058-4E1B-862D-18708C173CEB}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EAMC BINARY", "EAMC BINARY\EAMC BINARY.shproj", "{C3694B82-62B1-4320-8B69-09D5A8109F61}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "EXT BINARY", "EXT BINARY\EXT BINARY.shproj", "{A0B3DCFD-1D7D-4538-AE90-E50A400F252D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		EAMC BINARY|Any CPU = EAMC BINARY|Any CPU
+		EXT BINARY|Any CPU = EXT BINARY|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.EAMC BINARY|Any CPU.ActiveCfg = Release|Any CPU
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.EAMC BINARY|Any CPU.Build.0 = Release|Any CPU
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.EXT BINARY|Any CPU.ActiveCfg = Release Ext|Any CPU
+		{5A8E504D-EBE4-4ED3-9B48-57D2A11C18D0}.EXT BINARY|Any CPU.Build.0 = Release Ext|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C3694B82-62B1-4320-8B69-09D5A8109F61} = {E9FF3566-7E4A-42DD-B7D2-D4806A7AB859}
+		{A0B3DCFD-1D7D-4538-AE90-E50A400F252D} = {5FC2628B-3058-4E1B-862D-18708C173CEB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82D36A33-510A-480D-A53C-0C8E5DBDAF2A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		EXT BINARY\EXT BINARY.projitems*{a0b3dcfd-1d7d-4538-ae90-e50a400f252d}*SharedItemsImports = 13
+		EAMC BINARY\EAMC BINARY.projitems*{c3694b82-62b1-4320-8b69-09d5a8109f61}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
